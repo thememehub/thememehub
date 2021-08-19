@@ -8,6 +8,7 @@ module.exports = {
     },
     reactStrictMode: true,
     trailingSlash: true,
+    exportTrailingSlash: true,
     webpackDevMiddleware: config => {
         const newConfig = { ...config };
         newConfig.watchOptions = {
