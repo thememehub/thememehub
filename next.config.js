@@ -1,6 +1,6 @@
 const path = require('path');
 
-const debug = process.env.NODE_ENV !== 'production';
+// const debug = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     images: {
@@ -23,6 +23,6 @@ module.exports = {
     },
     webpack5: true,
     future: {},
-    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
-    assetPrefix: !debug ? process.env.NEXT_PUBLIC_BASE_PATH : ''
+    // basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    // assetPrefix: !debug ? process.env.NEXT_PUBLIC_BASE_PATH : ''
 };

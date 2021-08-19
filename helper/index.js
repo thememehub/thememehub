@@ -1,4 +1,4 @@
-import prefix from './prefix';
+// import prefix from './prefix';
 
 const fetcher = async url => {
     const response = await fetch(url);
@@ -7,7 +7,7 @@ const fetcher = async url => {
 };
 
 const getMemesByCategory = async (cat, count) => {
-    const data = await fetcher(`${prefix}/api/random/${cat}/${count}/`);
+    const data = await fetcher(`/api/random/${cat}/${count}/`);
     return data;
 };
 
